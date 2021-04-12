@@ -2,7 +2,35 @@
 <html>
     <body>
         <script>
-            
+            function computerPlay () {
+                let select = ["rock", "paper", "scissor"];
+        
+                let select1 = Math.random()*3;
+                let select2 = Math.floor(select1);
+              let computerselect = select [select2]
+                return computerselect;
+            }               
+              
+            function gameround(playerselection, computerselection) {
+                if (computerPlay = "paper") {
+                    console.log ("You lose! Paper beats Rock");
+               } 
+                else if (computerPlay = "scissor"){
+                console.log( "Player wins! Rock beats scissor");
+                }
+                else {
+                    console.log("Tie!");
+                }
+            }
+              const  playerselection = "rock" ;
+              const computerselection = computerPlay();
+
+              
+
+              gameround (playerselection, computerselection );
+              gameround (playerselection, computerselection );
+              gameround (playerselection, computerselection );
+
         </script>
     </body>
 </html>
